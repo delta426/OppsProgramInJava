@@ -23,7 +23,9 @@ public class PolyMorphism extends Test{
 		t.test();
 		System.out.println(add(10,20));
 		System.out.println(add(10.0,20.0));
-		
+ 
+		PolyMorphism p1=(PolyMorphism)t;
+                p1.test();
 	}
 
 }
